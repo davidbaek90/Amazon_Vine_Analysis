@@ -3,45 +3,37 @@
 ## Overview of the Analysis
 - The purpose of this project is to analyze the Amazon reviews written by members of the paid Amazon Vine program. For the purpose of this study, we used the reviews of office products.
 
-<p align="center">
-<b>Output from the linear regression</b></br>
-    <img src="https://raw.githubusercontent.com/davidbaek90/MechaCar_Statistical_Analysis/main/4.PNG">
-</p>
-
-- The variables that provided a non-random amount of variance to the mpg are: 1. vehicle_length with a p-value of 2.60e-12, and 2. ground_clearance with a p-value of 5.21e-08.
-- The slope of the linear model should be consiered non-zero, there are three coefficient that contribute to non-zero slope: 1. vehicle_length, 2. ground_clerance, and 3. AWD.
-- Since the R-squared value is 0.7149. Which means roughly 71% of the variability of our depends variable is explained using linear model. This model would be relatively effective.
-
 ## Results
 - Vine reviews
 <p align="center">
-    <img src="https://raw.githubusercontent.com/davidbaek90/MechaCar_Statistical_Analysis/main/4.PNG">
+    <img src="https://raw.githubusercontent.com/davidbaek90/Amazon_Vine_Analysis/main/pictures/1.PNG">
 </p>
 
 - None vine reviews
 <p align="center">
-    <img src="https://raw.githubusercontent.com/davidbaek90/MechaCar_Statistical_Analysis/main/4.PNG">
+    <img src="https://raw.githubusercontent.com/davidbaek90/Amazon_Vine_Analysis/main/pictures/2.PNG">
 </p>
 
 - 5-star vine reviews
 <p align="center">
-    <img src="https://raw.githubusercontent.com/davidbaek90/MechaCar_Statistical_Analysis/main/4.PNG">
+    <img src="https://raw.githubusercontent.com/davidbaek90/Amazon_Vine_Analysis/main/pictures/3.PNG">
 </p>
 
 - 5-start non-vine reviews
 <p align="center">
-    <img src="https://raw.githubusercontent.com/davidbaek90/MechaCar_Statistical_Analysis/main/4.PNG">
+    <img src="https://raw.githubusercontent.com/davidbaek90/Amazon_Vine_Analysis/main/pictures/4.PNG">
 </p>
 
 - % of 5-star vine reviews
 <p align="center">
-    <img src="https://raw.githubusercontent.com/davidbaek90/MechaCar_Statistical_Analysis/main/4.PNG">
+    <img src="https://raw.githubusercontent.com/davidbaek90/Amazon_Vine_Analysis/main/pictures/5.PNG">
 </p>
 
 - % of 5-start non-vine reviews
 <p align="center">
-    <img src="https://raw.githubusercontent.com/davidbaek90/MechaCar_Statistical_Analysis/main/4.PNG">
+    <img src="https://raw.githubusercontent.com/davidbaek90/Amazon_Vine_Analysis/main/pictures/6.PNG">
 </p>
 
 
 ## Summary
+- Percentage of both paid and unpaid 5-star vine reviewes to total paid/unpaid reviews were both 44%. This shows non bias effect of paid vs non paid Vine reviews. In addition to this analysis, it might be advisable to look at the entire band of the reviews, from 1 star to 5 start to precisely gauge the affect of paid vs non paid members of Amazon Vine program. With this data we can analyze the descriptive statistics such as mean, median, standard deviation and 25/50/75 percentile to show a more detailed pattern between the two groups.
